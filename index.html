@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ala Hammami — Software Engineer</title>
+<meta name="description" content="Ala Hammami — full-stack software engineer. Spring Boot, Angular, DevOps, and the teamwork discipline of professional volleyball.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%90%3C/text%3E%3C/svg%3E">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="mark" href="#top"><b>ALA</b><span> HAMMAMI</span></a>
+    <div class="nav-actions">
+      <a class="btn btn-ghost" href="assets/Ala-Hammami-CV.pdf" target="_blank" rel="noopener">Resume</a>
+      <a class="btn btn-solid" href="#work">Work</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme">◐</button>
+    </div>
+  </div>
+</nav>
+
+<div id="top"></div>
+<header class="hero" id="heroSection">
+  <div class="hero-spotlight" id="heroSpotlight" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="hero-photo"><img src="assets/photo.png" alt="Portrait of Ala Hammami"></div>
+    <h1>Full-stack engineer </em></h1>
+    <p class="hero-sub">I'm Ala Hammami. I build backend-to-frontend systems and bring the same teamwork discipline from competitive volleyball to how I ship them.</p>
+    <div class="hero-cta">
+      <a class="btn btn-solid" href="https://github.com/alahammami2?tab=repositories" target="_blank" rel="noopener">GitHub ↗</a>
+      <a class="btn btn-ghost" href="#contact">Let's talk</a>
+    </div>
+    <div class="hero-facts">
+      <div class="hero-fact"><b>3</b><span>Internships</span></div>
+      <div class="hero-fact"><b>2022–25</b><span>Engineering degree</span></div>
+      <div class="hero-fact"><b>3</b><span>Languages spoken</span></div>
+    </div>
+    <svg class="scroll-cue" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 3v16m0 0-6-6m6 6 6-6" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+</header>
+
+<main>
+  <section id="work">
+    <div class="section-head reveal">
+      <p class="kicker">Selected work</p>
+      <h2>What I've shipped</h2>
+    </div>
+    <div class="work-grid reveal">
+      <article class="work-card featured">
+        <div class="work-media">
+          <video controls preload="metadata" playsinline>
+            <source src="assets/academie-demo.mp4" type="video/mp4">
+            Your browser doesn't support embedded video.
+          </video>
+        </div>
+        <h3>Académie de Volleyball Kelibia — Membership Platform</h3>
+        <p>A membership system for a volleyball academy: JWT-secured admin accounts, player and group records, QR-code attendance scanning, and monthly payment tracking with automatic overdue status. Generates bilingual, Arabic-aware PDF receipts and revenue reports, issues membership cards, and bulk-imports an existing roster from Excel.</p>
+        <div class="work-tags">
+          <span class="work-tag">Spring Boot</span><span class="work-tag">Angular</span><span class="work-tag">PostgreSQL</span><span class="work-tag">JWT</span><span class="work-tag">Docker</span>
+        </div>
+      </article>
+      <article class="work-card">
+        <div class="work-media"><img src="assets/codk-cover.webp" alt="Club Olympique de Kelibia platform — dashboard and mobile assistant screens" loading="lazy"></div>
+        <h3>Team Management Platform — Club Olympique de Kelibia</h3>
+        <p>Final year project. Team data was scattered across spreadsheets and group chats. I designed a microservices backend, built an interactive Angular frontend, and integrated a chatbot so staff get answers without digging — centralizing rosters, schedules and training plans in one place, and cutting admin time dramatically.</p>
+        <div class="work-tags">
+          <span class="work-tag">Spring Boot</span><span class="work-tag">Angular</span><span class="work-tag">MySQL</span><span class="work-tag">Docker</span><span class="work-tag">Jenkins</span><span class="work-tag">Git</span>
+        </div>
+      </article>
+      <article class="work-card">
+        <div class="work-media"><img src="assets/atb-cover.webp" alt="ATB trainee management platform dashboard" loading="lazy"></div>
+        <h3>Trainee Management Platform — Arab Tunisian Bank</h3>
+        <p>Full CRUD web platform for managing trainees end to end, from requirements analysis to UML design and implementation. Digitalized a process that used to run on paper and email.</p>
+        <div class="work-tags">
+          <span class="work-tag">PHP</span><span class="work-tag">MySQL</span><span class="work-tag">XAMPP</span><span class="work-tag">JavaScript</span>
+        </div>
+      </article>
+      <article class="work-card">
+        <div class="work-media"><img src="assets/tt-cover.webp" alt="Tunisie Telecom trainee management desktop application" loading="lazy"></div>
+        <h3>Trainee Management App — Tunisie Telecom</h3>
+        <p>Desktop application for managing trainees, from requirement specification and UML modeling to a working CRUD system — centralizing data that used to live in scattered files.</p>
+        <div class="work-tags">
+          <span class="work-tag">Java</span><span class="work-tag">NetBeans</span><span class="work-tag">MySQL</span><span class="work-tag">WampServer</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="method">
+    <div class="section-head reveal">
+      <p class="kicker">Method</p>
+      <h2>How I build</h2>
+    </div>
+    <div class="method-list reveal">
+      <div class="method-item">
+        <span class="num">01</span>
+        <div>
+          <h3>Systems before screens</h3>
+          <p>I design the backend first — data model, services, how pieces talk to each other — so the frontend has something solid to sit on.</p>
+        </div>
+      </div>
+      <div class="method-item">
+        <span class="num">02</span>
+        <div>
+          <h3>DevOps from day one</h3>
+          <p>Docker, Jenkins and Git aren't an afterthought. I set up the pipeline early so shipping is routine, not an event.</p>
+        </div>
+      </div>
+      <div class="method-item">
+        <span class="num">03</span>
+        <div>
+          <h3>Team instincts from volleyball</h3>
+          <p>Years of competitive play taught me to communicate constantly, cover for teammates, and stay composed when things get tight. Same instincts, different court.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="section-head reveal">
+      <p class="kicker">Experience</p>
+      <h2>Three internships, three different stacks</h2>
+    </div>
+    <div class="exp-list reveal">
+      <div class="exp-item">
+        <div class="exp-head">
+          <span class="exp-role">Software Engineering Intern <span class="exp-org">· Club Olympique de Kelibia</span></span>
+          <span class="exp-date">Apr 2025 – Sep 2025</span>
+        </div>
+        <p class="exp-body">Built an intelligent team management platform as my final year project: a microservices backend, a modern Angular frontend, and a chatbot to support day-to-day operations. Centralized all team data, cut administrative work dramatically, and improved how training got planned.</p>
+        <div class="exp-tags">
+          <span class="work-tag">Spring Boot</span><span class="work-tag">Angular</span><span class="work-tag">MySQL</span><span class="work-tag">Docker</span><span class="work-tag">Jenkins</span>
+        </div>
+      </div>
+      <div class="exp-item">
+        <div class="exp-head">
+          <span class="exp-role">Software Developer Intern <span class="exp-org">· Arab Tunisian Bank</span></span>
+          <span class="exp-date">Jun 2024 – Aug 2024</span>
+        </div>
+        <p class="exp-body">Trainee management ran on paper and scattered spreadsheets. Analyzed requirements, modeled the system in UML, and built a full PHP/MySQL platform with CRUD workflows — digitalizing the process and giving the bank real visibility and traceability.</p>
+        <div class="exp-tags">
+          <span class="work-tag">PHP</span><span class="work-tag">MySQL</span><span class="work-tag">XAMPP</span><span class="work-tag">HTML/CSS</span><span class="work-tag">JavaScript</span>
+        </div>
+      </div>
+      <div class="exp-item">
+        <div class="exp-head">
+          <span class="exp-role">Software Developer Intern <span class="exp-org">· Tunisie Telecom</span></span>
+          <span class="exp-date">Jun 2023 – Jul 2023</span>
+        </div>
+        <p class="exp-body">Trainee tracking had no central system. Specified requirements, modeled the system in UML, and delivered a Java desktop application with MySQL — centralizing data and automating what used to be manual.</p>
+        <div class="exp-tags">
+          <span class="work-tag">Java</span><span class="work-tag">NetBeans</span><span class="work-tag">MySQL</span><span class="work-tag">WampServer</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="section-head reveal">
+      <p class="kicker">About</p>
+      <h2>Beyond the code</h2>
+    </div>
+    <div class="about-list reveal">
+      <div class="about-item">
+        <span class="num">01</span>
+        <div>
+          <h3>Volleyball player</h3>
+          <p>I compete in professional volleyball. It's where teamwork stopped being a résumé word — reading the play, backing up a teammate, staying calm on a close point.</p>
+        </div>
+      </div>
+      <div class="about-item">
+        <span class="num">02</span>
+        <div>
+          <h3>Trilingual</h3>
+          <p>Arabic (native), French and English (intermediate) — comfortable working across teams and languages.</p>
+        </div>
+      </div>
+      <div class="about-item">
+        <span class="num">03</span>
+        <div>
+          <h3>Still adding to the stack</h3>
+          <p>Database Certification, March 2024 — one more layer on top of the engineering degree, kept current on purpose.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="section-head reveal">
+      <p class="kicker">Education</p>
+      <h2>Background</h2>
+    </div>
+    <ul class="edu-list reveal">
+      <li class="edu-item">
+        <div class="edu-main"><b>Engineering Degree in Software Engineering</b><div>SESAME University</div></div>
+        <span class="edu-date">2022 – 2025</span>
+      </li>
+      <li class="edu-item">
+        <div class="edu-main"><b>Integrated Preparatory Cycle in Computer Science</b><div>SESAME University</div></div>
+        <span class="edu-date">2020 – 2022</span>
+      </li>
+      <li class="edu-item">
+        <div class="edu-main"><b>Computer Science Baccalaureate</b><div>Abed Aziz Khouja High School</div></div>
+        <span class="edu-date">2019 – 2020</span>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <div class="contact-inner reveal">
+      <p class="kicker" style="justify-content:center; display:flex;">Contact</p>
+      <h2>Let's talk.</h2>
+      <p>Open to full-stack and backend roles. Email is fastest — I'm also on LinkedIn and GitHub.</p>
+      <div class="contact-cta">
+        <a class="btn btn-solid" href="mailto:ala.hammami@sesame.com.tn">Email me</a>
+        <a class="btn btn-ghost" href="assets/Ala-Hammami-CV.pdf" target="_blank" rel="noopener">Download Resume</a>
+      </div>
+      <div class="contact-list">
+        <a href="mailto:ala.hammami@sesame.com.tn">ala.hammami@sesame.com.tn</a>
+        <a href="tel:+21651212899">+216 51 212 899</a>
+        <a href="https://www.linkedin.com/in/ala-hammami--" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/alahammami2?tab=repositories" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Ala Hammami — Software Engineer, Full-Stack &amp; DevOps</div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
